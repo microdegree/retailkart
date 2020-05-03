@@ -32,7 +32,7 @@ Final Price : {props.location.bookingInfo.finalPrice} <br />
 
                         </Col>
                     </Row>
-                    <Button variant="primary"><Link to='/retailDashboard/paymentsGateway' style={{ color: '#fff' }} onClick={confirmBookingAtServer}>Submit Job Application</Link></Button>
+                    <Button variant="primary"><Link to='/retailDashboard/paymentsGateway' style={{ color: '#fff' }} onClick={confirmBookingAtServer}>Confirm PreOrder</Link></Button>
 
                 </Card.Body>
                 </Card>
